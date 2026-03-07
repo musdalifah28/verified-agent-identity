@@ -1,20 +1,11 @@
-firmawan: Verify Human Identity
+name: Verify Human Identity
 
 on:
   workflow_dispatch:
-    inputs:
-      agent_name:
-        description: 'firmanwan'
-        required: true
-        default: 'firmanwan'
-      agent_description:
-        description: 'firmanwan'
-        required: true
-        default: 'firmanwan AI Agent'
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Done
+      - name: Start
         run: echo "Verification started"
